@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form task</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			background: black;
+		}
+		 .main{
+		 	height: 480px;
+		 	width: 75%;
+		 	/*background: black;*/
+		 	/*background: #23074c;*/
+		 	/*background: #1a0736;*/
+		 	/*background: #23113e;*/
+		 	/*background: #322452;*/
+		 	background: #1f0a4e;
+		 	margin: 50px auto;
+		 	position: relative;
+		 	border-right: 1px solid white;
+		 }
+		 .round {
+		 	 height: 450px;
+             width: 250px;
+       	     /*background: hotpink;*/
+       	     /*background: #ad1457;*/
+       	     /*background: #0689e9;*/
+       	     background: #1e3cf7;
+       	     /*background: #0f89e9;*/
+       	     position: absolute;
+       	      top: 0;
+       	     left: 0;
+       	     clip-path: ellipse(130px 140px at 10% 20%);
+       	z-index: 1;
+		 }
+		 .form{
+		 	height: 400px;
+		 	width: 35%;
+		 	/*background: yellowgreen;*/
+		 	background:  #80808033;
+		 	position: absolute;
+		 	top: 45px;
+		 	left: 65px;
+		 	z-index: 6;
+		 	backdrop-filter: blur(15px);
+		 	border-radius: 5px;
+		 }
+		 .form .pic{
+		 	height: 125px;
+		 	width: 125px;
+		 	/*background: white;*/
+		 	/*background:  #80808033;*/
+		 	border-radius: 50%;
+		 	margin-top: 30px;
+		 	margin-left: 100px;
+		 	border: 10px solid  #80808033;
+		 }
+		 .pic img{
+		 	border-radius: 51%;
+		 }
+		 .form h3{
+		 	/*margin-left: 120px;*/
+		 	text-align: center;
+		 	color: white;
+		 	margin-top: 20px;
+
+		 }
+		 .form .text{
+		 	color: white;
+		 	text-align: center;
+		 	font-size: 20px;
+		 	margin-top: 10px;
+		 	color: #ffffffa1;
+		 }
+		 .form button{
+		 	padding: 15px 100px;
+		 	margin-left: 30px;
+		 	font-size: 16px;
+		 	border-style: none;
+		 	color: white;
+		 	/*background:  #80808033;*/
+		 	background: #80808061;
+		 	margin-top: 35px;
+		 	border-radius: 8px;
+		 	letter-spacing: 1px;
+		 	
+		 }
+		 .form .footer{
+		 	height: 60px;
+		 	width: 100%;
+		 	/*background: #80808033;*/
+		 	background: #80808061;
+		 	margin-top: 27px;
+		 	display: flex;
+		 	color: white;
+		 	border-radius: 0 0 5px 5px;
+		 }
+		 .form .footer .rating{
+		 	height: 60px;
+		 	width: 45%;
+		 	/*background: gray;*/
+		 }
+		 .form .footer .rating span{
+		 	display: block;
+		 	text-align: center;
+		 	/*background: pink;*/
+		 	margin: 7px 20px;
+		 	font-weight: bold;
+		 	
+		 }
+		 .form .footer .rating .r1{
+		 	color: #ffffffa1;
+		 }
+		 .form .footer .line{
+		 	height: 45px;
+		 	border: 1px solid gray;
+		 	margin: 5px 20px;
+		 }
+		 .form .footer .Activity{
+		 	height: 60px;
+		 	width: 45%;
+		 	font-weight: bold;
+		 	/*background: gold;*/
+		 }
+		 .form .footer .Activity span{
+		 	display: block;
+		 	text-align: center;
+		 	/*background: pink;*/
+		 	margin: 7px 20px;
+
+		 }
+		 .form .footer .Activity .a1{
+		 	color: #ffffffa1;
+		 }
+		
+		 .traingle{
+		 	z-index: 2;
+		 }
+		 .traingle img{
+		 	position: absolute;
+		 	top: 200px;
+		 	left: 300px;
+		 	/*color: #ad1457;*/
+            
+		 }
+		  .glass{
+		 	height: 90px;
+		 	width: 250px;
+		 	background:white;
+		 	position: absolute;
+		 	/*top: 45px;
+		 	left: 40;*/
+		 	top: 125px;
+		 	right: 0px;
+		 	font-size: 65px;
+		 	font-weight: bold;
+		 	letter-spacing: 1px;
+		 	padding: 5px 10px 5px 15px;
+		 	color: #322452;
+		 	box-shadow: 5px 10px  25px #0000006e;
+		 	z-index: 5;
+
+		 }
+		 .morphism{
+		 	height: 90px;
+		 	width: 430px;
+		 	background:white;
+		 	position:absolute;
+		 	top: 215px;
+		 	right: 0;
+		 	font-size: 65px;
+		 	font-weight: bold;
+		 	padding:5px 8px 5px 17px;
+		 	letter-spacing: 1px;
+		 	color: #322452;
+		 	z-index: 1;
+		 }
+		 .pure{
+		 	height: 55px;
+		 	width: 230px;
+		 	background: #80808033;
+
+		 	position: absolute;
+		 	top: 305px;
+		 	right: 0;
+		 	font-size: 38px;
+		 	text-align: center;
+            padding: 5px 10px 5px 10px; 
+           color: white;
+           z-index: 2;
+		 }
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="round"></div>
+		<div class="form">
+			<p class="pic">
+				<img src="F:\Manju_Github\Task\pic.jpg"  width="100%" height="100%">
+			</p>
+			<h3>Olivia Smith</h3>
+			<p class="text">Full Stack Developer</p>
+             <button>View Profile</button>
+             <div class="footer">
+             	<div class="rating">
+             		<span>86%</span>
+             		<span class="r1">Rating</span>
+             	</div>
+             	<span class="line"></span>
+             	<div class="Activity">
+                     <span>92%</span>
+                     <span class="a1">Activity</span>
+
+             	 </div>
+             	 
+		</div>
+	</div>
+
+     <div class="traingle">
+     	<!-- <img src="https://tse1.mm.bing.net/th?id=OIP.5d2bVNyodZBJdkk9kK95SgAAAA&pid=Api&P=0"> -->
+     <img src="F:\Manju_Github\Task\traingle.png" height="280px" width="310px">
+
+     </div>
+             	 <div class="glass">GLASS</div>
+             	 <div class="morphism">MORPHISM</div>
+             	 <div class="pure">PURE CSS</div>
+
+	</div>
+
+</body>
+</html>
