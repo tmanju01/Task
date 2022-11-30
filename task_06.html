@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation task</title>
+	<style type="text/css">
+		*{
+			 margin: 0;
+			 padding: 0;
+			 box-sizing: border-box;
+		}
+		body{
+			background: black;
+		}
+		.main{
+			height: 450px;
+			width: 70%;
+			margin: 50px auto;
+             position: relative;
+            /*background: black;*/
+            
+		}
+		
+		 .lien1{
+		 	height: 3px;
+		 	width: 125px;
+		 	background:white;
+		 	margin: 50px 200px;
+		 	transform: rotate(-25deg);
+		 	position: absolute;
+		 	top: 105px;
+		 	left: 120px;
+		 }
+		 .lien2{
+		 	height: 3px;
+		 	width: 125px;
+		 	background: white;
+		 	margin-left: 10px;
+		 	transform: rotate(25deg);
+		 	position: absolute;
+		 	top: 155px;
+		 	left: 435px;
+		 }
+		 .eyes{
+		 	height: 80px;
+		 	width: 80px;
+		 	/*background: blue;*/
+		 	padding: 10px 10px;
+		 	position: absolute;
+		 	top: 190px;
+		 	left: 365px;
+		 	/*animation: left-right 1s 1;
+		 	overflow: hidden;*/
+		 	/*animation: left-right 2s 1;*/
+
+		 }
+		  .eyes2{
+		 	height: 80px;
+		 	width: 80px;
+		 	/*background: blue;*/
+		 	padding: 10px 10px;
+		 	position: absolute;
+		 	top: 190px;
+		 	left: 447px;
+		 	/*animation: left-right 1s 1;*/
+		 	overflow: hidden;
+
+		 }
+		  .round1{
+		 	height: 60px;
+		 	width: 50px;
+		 	/*background: skyblue;*/
+		 	border-radius: 50%;
+		 	border: 1px solid white;
+            
+              /*animation: left-right 2s 1;*/
+
+          /*padding: 10px 10px;*/
+         
+
+		 }
+		 .round2{
+		 	height: 15px;
+		 	width: 15px;
+		 	background:white;
+		 	border-radius: 50%;
+		 	margin-left: 15px;
+		 	margin-top: 16px;
+		 	/*border: 1px solid black;*/
+             animation: move 5s infinite;
+
+
+		 }
+
+		 @keyframes move{
+		 	from{margin-top: 40px;}
+		 	to{margin-top: 0px;}
+		 }
+		 @keyframes left-right{
+		 	from{left: 0; }
+		 	to{right:20px; background: yellow;}
+
+		 }
+
+	</style>
+</head>
+<body>
+	<div class="main">
+		
+                <div class="lien1"></div>
+                <div class="lien2"></div>
+
+            <div class="eyes">
+            	<div class="round1">
+            		<div class="round2"></div>
+            	</div>
+            </div>
+            
+
+
+               <div class="eyes2">
+            	<div class="round1">
+            		<div class="round2"></div>
+            	</div>
+            </div>
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>
