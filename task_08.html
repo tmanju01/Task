@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task 08</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background: black;
+		}
+     .main{
+     	height: 300px;
+     	width: 600px;
+     	background:#29b6f6;
+     	margin: 150px auto;
+     	padding-top: 70px;
+     	padding-left: 270px;
+
+
+     }
+     .round{
+     	height: 150px;
+     	width: 70px;
+     	background: transparent;
+     	border-radius: 40px ;
+     	border: 3px solid white;
+     	/*margin-top: 10px;*/
+     	/*animation: move 3s 2;*/
+     	
+
+     }
+     .animation{
+     	height: 20px;
+     	width: 20px;
+     	background: white;
+     	border-radius: 50%;
+     	margin-left: 22px;
+     	/*opacity: 1;*/
+     	animation:move 1s infinite;
+     }
+     @keyframes move {
+     	from{margin-top: 0;opacity: 1;}
+     	to{margin-top: 100px; opacity:0;}
+     }
+
+		
+	</style>
+</head>
+<body>
+	<div class="main">
+		<div class="round">
+			<div class="animation">
+				
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
