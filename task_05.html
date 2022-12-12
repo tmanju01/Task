@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>animation</title>
+	<style type="text/css">
+		
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			position: relative;
+		}
+		.pink{
+			height: 50px;
+			width: 50px;
+			background: hotpink;
+			position: absolute;
+			top: 0;
+			left: 0;
+			border-radius: 50%;
+			position: relative;
+			animation: pink 1s infinite;
+		}
+		.blue{
+			height: 50px;
+			width: 50px;
+			background: blue;
+			position: absolute;
+			top: 80px;
+			left: 0;
+			border-radius: 50%;
+			animation: blue 1s infinite;
+		}
+		.orange{
+			height: 50px;
+			width: 50px;
+			background:orange;
+			position: absolute;
+			top: 160px;
+			left: 0;
+			border-radius: 50%;
+			animation: orange 1s infinite;
+		}
+		.black{
+			height: 50px;
+			width: 50px;
+			background:black;
+			position: absolute;
+			top: 240px;
+			left: 0;
+			border-radius: 50%;
+			animation:black 1s infinite;
+		}
+		.yellow{
+			height: 50px;
+			width: 50px;
+			background:yellow;
+			position: absolute;
+			top: 310px;
+			left: 0;
+			border-radius: 50%;
+			animation:yellow 1s infinite;
+		}
+		.gray{
+			height: 50px;
+			width: 50px;
+			background: grey;
+			position: absolute;
+			top: 380px;
+			left: 0;
+			border-radius: 50%;
+			animation:gray 1s infinite;
+		}
+		.green{
+			height: 50px;
+			width: 50px;
+			background:green;
+			position: absolute;
+			top: 460px;
+			left: 0;
+			border-radius: 50%;
+			animation:green 1s infinite;
+		}
+		.skyblue{
+			height: 50px;
+			width: 50px;
+			background:skyblue;
+			position: absolute;
+			top: 530px;
+			left: 0;
+			border-radius: 50%;
+			animation:skyblue 1s infinite;
+		}
+
+		.main{
+			height: 200px;
+			width: 200px;
+			border-top: 100px solid transparent;
+			border-right: 100px solid transparent;
+			border-bottom: 100px solid yellow;
+			border-left: 100px solid transparent;
+			margin: 25px auto;
+
+		}
+		.animation{
+			height: 100px;
+			width: 200px;
+			background: blue;
+			margin: 25px auto;
+			display: flex;
+		}
+		 .animation .round1{
+			height: 100px;
+			width: 50%;
+			background: yellow;
+		}
+		.animation .round1 .roundlong{
+			height: 85px;
+			width: 80%;
+			background: blue;
+			margin: 5px auto;
+			border-radius: 50%;
+			padding-top: 33px;
+			padding-left: 18px;
+
+		}
+		.animation .round1 .roundlong .circle1{
+			height: 50px;
+			width: 50px;
+			background: grey;
+			border-radius: 50%;
+			position: relative;
+			animation:move  2s infinite;
+			
+
+		}
+		
+		.animation .round2{
+			height: 100px;
+			width: 50%;
+			background: grey;
+		}
+		.animation .round2 .roundsmoall{
+			height: 85px;
+			width: 80%;
+			background: blue;
+			margin: 5px auto;
+			border-radius: 50%;
+			padding-top: 33px;
+			padding-left: 18px;
+		}
+		.animation .round2 .roundsmoall .circle2{
+			height: 50px;
+			width: 50px;
+			background: grey;
+			border-radius: 50%;
+			position: relative;
+			animation:move  2s infinite;
+
+		}
+		@keyframes move
+		{
+			from{bottom: 35px;}
+			to{top:0px;}
+		}
+
+		@keyframes pink{
+			/*from{top: 0;}
+			to{top: 600px;}*/
+			
+
+			10%{ top: 80px;left: 110px;}
+			25%{ top: 160px;left: 160px;}
+			40%{ top: 240px;left: 210px;}
+			55%{ top: 310px;left: 260px;}
+			70%{top: 380px;left: 310px;}
+			85%{top: 460px;left: 360px;}
+			100%{top: 530px;left: 410px;}
+			
+		}
+
+		@keyframes blue{
+			/*from{left: 0;}
+			to{left: 100%;}*/
+			25%{ top: 160px;left: 110px;}
+			40%{ top: 240px;left: 160px;}
+			55%{ top: 310px;left: 210px;}
+			70%{top: 380px;left: 260px;}
+			85%{top: 460px;left: 310px;}
+			100%{top: 530px;left: 410px;}
+		}
+		@keyframes  orange{
+			/*from{}
+			to{}*/
+			/*10%{ top: 80px;left: 100px;}
+			25%{ top: 160px;left: 150px;}*/
+			40%{ top: 240px;left: 110px;}
+			55%{ top: 310px;left: 160px;}
+			70%{top: 380px;left: 210px;}
+			85%{top: 460px;left: 260px;}
+			100%{top: 530px;left: 310px;}
+			
+		}
+		@keyframes  black{
+			 55%{ top: 310px;left: 100px;}
+			70%{top: 380px;left: 150px;}
+			85%{top: 460px;left: 200px;}
+			100%{top: 530px;left: 250px;}
+		}
+		@keyframes yellow{
+			70%{top: 380px;left: 100px;}
+			85%{top: 460px;left: 150px;}
+			100%{top: 530px;left: 200px;}
+		}
+     @keyframes gray{
+     	85%{top: 460px;left: 100px;}
+			100%{top: 530px;left: 150px;}
+     }  
+     @keyframes green{
+
+     	100%{top: 530px;left: 100px;}
+     }
+
+	</style>
+</head>
+<body>
+	<div class="pink"></div>
+	<div class="blue"></div>
+	<div class="orange"></div>
+	<div class="black"></div>
+	<div class="yellow"></div>
+	<div class="gray"></div>
+	<div class="green"></div>
+	<div class="skyblue"></div>
+
+	<!-- animation start -->
+    <div class="main"></div>
+    <div class="animation">
+         <div class="round1">
+         	<div class="roundlong">
+         		<div class="circle1"></div>
+
+         	</div>
+         	
+         </div>
+         <div class="round2">
+         	 <div class="roundsmoall">
+         		<div class="circle2"></div>
+         	</div>
+         </div>
+    </div>
+
+    <!-- animation end -->
+</body>
+</html>
