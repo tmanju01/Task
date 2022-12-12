@@ -1,0 +1,1459 @@
+@media (max-width: 1133px){
+	.footer .footer_part .part_2 .time ul li .s2
+	  {
+                width: 100%;
+   
+                margin-left:20px;
+                   
+      }
+}
+
+
+
+@media (max-width: 1087px){
+
+
+	        .main .header_up
+	        {
+	        	display: none;
+	        }
+
+			.nav .checkbtn
+			{
+				display: block;
+				line-height: 60px;
+				text-transform: uppercase;
+			}
+
+			.nav
+			{
+				height: 60px;
+				background: black;
+				border: none;
+			}
+
+			.nav .logo a
+			{
+				float: left;
+				line-height: 55px;
+				margin-left: 10px;
+				font-size: 23px;
+				position: absolute;
+				top:0;
+				left: -100px;
+				
+			}
+
+			.nav ul li
+			{
+				display: none;
+			}
+
+			.main .text
+			{
+				text-align: center;
+			}
+
+			.footer
+			{
+     	       height: auto;
+     	       width: 100%;
+            }
+
+          .footer .footer_part
+            {
+     	        height: auto;
+     	        width: 100%;
+
+            }
+     
+          .footer .footer_part .part_1, .part_2, .part_3, .part_4
+          {
+     	     width: 25%;
+     	     height: auto;
+           }
+
+          .footer .Copyright
+           {
+     	  	margin-left: 100px;
+     	
+           }
+			  
+}
+
+
+@media (max-width: 996px){
+
+	        .footer
+	        {
+     	         height: auto;
+     	         width: 100%;
+            }
+
+           .footer .footer_part
+           {
+     	         height: auto;
+     	         width: 75%;
+
+           }
+
+          .footer .footer_part .part_1, .part_2, .part_3, .part_4
+          {
+     	        width: 50%;
+     	        height: auto;
+           }
+
+          .footer .Copyright 
+          {
+     	  	margin-left: 100px;
+     	
+          }
+}
+
+
+@media (max-width: 981px){
+             
+             .main .text{
+             	position: relative;
+             }
+
+
+	      .text span{
+	      	position: absolute;
+        	top: 80px;
+        	left: 300px;
+	      }
+
+	      .services span
+	      {
+    	      display: block;
+    	      width: 100%;
+    	      position: absolute;
+    	      top: 0;
+    	      left: 325px;
+    	
+          }
+
+         .services h1
+         {
+    	     font-size: 45px;
+    	     padding-left: 275px;
+
+          }
+
+         .services .services_div
+           {
+    	     margin-left: 50px;
+           }
+
+         .services .services_div .Birthday
+         {
+    	    height: auto;
+    	    width: 33.33%;
+         }
+
+         .services .services_div .Business
+         {
+    	   height: auto;
+    	   width: 33.33%;
+         }
+
+        .services .services_div .Wedding
+        {
+     	   height: auto;
+     	   width: 33.33%;
+     	
+        }
+
+        .chef
+          {
+     	        height: auto;
+            	padding-top: 50px;
+            	position: relative;
+          }
+
+          .chef span
+          {
+            	position: absolute;
+            	top: 50px;
+            	left: 450px;
+          }
+
+          .chef h1
+          {
+            	font-size: 45px;
+            	padding-left: 350px;
+          }
+
+          .chef .chef_div
+          {
+            	width: 100%;
+          }
+
+          .chef .chef_div .chef_1
+          {
+            	width: 43%;
+            	
+          }
+
+          .chef .chef_div .chef_2
+          {
+            	width: 43%;
+            	
+          }
+           .chef .chef_div .chef_3{
+            	width: 43%;
+            }
+             .chef .chef_div .chef_4{
+            	width: 43%;
+            }
+ 
+          .customer_div
+          {
+             	height: auto;
+             	position: relative;
+          }
+
+          .customer_div span
+          {
+             	position: absolute;
+             	top: 100px;
+             	left: 300px;
+
+           }
+
+           .customer_div h1
+           {
+             	font-size: 42px;
+             	padding-left:270px;
+           }
+
+           .customer_div .customers
+           {
+             	height: auto;
+             	width: 80%;
+             	margin: 25px auto 0 auto;
+           }
+
+           .customer_div .customers .customer_1
+           {
+             	width: 50%;
+             	
+           }
+
+           .customer_div .customers .customer_2
+           {
+               width: 50%;
+           }
+
+           .customer_div .customers .customer_3
+           {
+                display: none;
+           }
+
+
+}
+
+
+@media (max-width: 878px){
+	
+	      .about .about_image
+	      {
+           	  height: auto;
+           	  width: 100%;
+           }
+
+           .about .about_image .image_1
+           {
+           	height: 600px;
+           	width: 50%;
+           	margin-left: 0;
+
+           }
+
+           .about .about_image .image_1 .img1
+           {
+           	  height: 600px;
+           	  width: 50%;
+
+           }
+
+           .about .about_image .image_1 .img2
+           {
+             	height: 600px;
+           	    width: 50%;
+           	
+           }
+           .about .about_image .about_text
+           {
+        	 	height: 550px;
+        	 	width: 50%;
+        	 	
+           }
+
+         .services h1
+         {
+                   font-size: 40px;
+                   padding-left: 300px;
+         }
+
+         .background_fix
+         {
+             	width: 100%;
+             
+          }
+
+          .reservetion_form
+          {
+             	width: 70%;
+             	margin-left: 70px;
+          }
+
+          .reservetion_form  table
+          {
+             	margin-left: 70px;
+          }
+
+          table , tr,td
+          {
+             	
+             	width: 50%;
+          }
+
+          .reservetion_form  table input
+          {
+             	width: 80%;
+          }
+
+          .reservetion_form  table select
+          {
+             	width: 80%;
+          }
+
+           .reservetion_form  button
+             {
+             	margin-left: 180px;
+             	
+             }
+        	 
+}
+
+
+@media (max-width: 821px){
+
+
+	        .main .text
+	         {
+		        border: none;
+		         height: 585px;
+		        width: 100%;
+	          }
+
+	        .text span
+	         {
+		        position: absolute;
+		        top: 200px;
+		        left: 250px;
+		        font-size: 70px;
+	          }
+
+	        .text h1
+	        {
+		        font-size: 35px;
+		        padding-top: 280px;
+		        padding-left: 50px;
+	        }
+
+	       .imagefooter
+	       {
+		     height: auto;
+		     width: 100%;
+		     background:white;
+		     display: flex;
+		      flex-wrap: wrap;
+
+	       }
+
+	       .imagefooter .breakfast_1, .breakfast_2
+	      {
+		
+		     width: 50%;
+		
+	      }
+
+	       .imagefooter .breakfast_3, .breakfast_4
+	      {
+		    height: 250px;
+		    width: 50%;
+		
+	      }
+	
+        .imagefooter h3
+        {
+        		color: black;
+        		
+        }
+
+        .imagefooter p
+        {
+        	color:grey;
+
+        }
+           
+        .about .about_image
+        {
+           	height: auto;
+           	width: 100%;
+          
+        }
+
+        .about .about_image .image_1
+        {
+           	height: 600px;
+           	width: 50%;
+           	margin-left: 0;
+
+
+        }
+
+        .about .about_image .image_1 .img1
+        {
+           	height: 600px;
+           	width: 50%;
+
+        }
+
+        .about .about_image .image_1 .img2
+        {
+           	height: 600px;
+           	width: 50%;
+           	
+        }
+
+        .about .about_image .about_text
+        {
+        	 	height: 550px;
+        	 	width: 50%;
+        	 	
+        }
+
+        .about .count .count_1
+        {
+              	height: 75px;
+   	            width: 20%;
+   	            padding-left: 0;
+   	            
+         }
+
+         .about .count .count_2
+         {
+              	height: 75px;
+   	            width: 20%;
+   	            padding-left: 0;
+   	            
+          }
+
+          .about .count .count_3
+          {
+              	height: 75px;
+   	            width: 20%;
+   	            padding-left: 0;
+   	            
+          }
+
+           .about .count .count_4
+           {
+              	height: 75px;
+   	            width: 20%;
+   	            padding-left: 0;
+   	            
+           }
+
+            .about .count .count_5
+            {
+              	height: 250px;
+   	            width: 20%;
+   	            padding-left: 0;
+   	            text-align: center;
+   	            
+             }
+
+             .chef span
+             {
+                	position: absolute;
+                    top: 10px;
+                    left: 43%;
+             }
+
+             .chef h1
+             {
+                	padding-left: 29%;
+             }
+
+             .chef .chef_div
+             {
+                 	margin-left: 0;
+                 	padding-left: 70px;
+             }
+
+
+
+
+}
+@media (max-width: 774px){
+
+	       .services span
+	       {
+    	      display: block;
+    	      width: 100%;
+    	      position: absolute;
+    	      top: 0;
+    	      left: 325px;
+    	
+           }
+
+          .services h1
+          {
+    	     font-size: 45px;
+    	    padding-left: 275px;
+
+          }
+
+        .services .services_div
+        {
+    	
+    	  margin-left: 50px;
+        }
+
+        .services .services_div .Birthday
+        {
+    	    height: auto;
+    	    width: 33.33%;
+    
+        }
+
+         .services .services_div .Business
+         {
+    	    height: auto;
+    	    width: 33.33%;
+    	
+         }
+
+         .services .services_div .Wedding
+         {
+     	    height: auto;
+     	    width: 33.33%;
+     	
+         }
+
+         .chef
+         {
+      	        height: auto;
+            	padding-top: 150px;
+            	position: relative;
+         }
+
+         .chef span
+         {
+            	position: absolute;
+            	top: 150px;
+            	left: 250px;
+         }
+
+         .chef h1
+         {
+            	font-size: 45px;
+            	padding-left: 150px;
+         }
+
+         .chef .chef_div
+         {
+            	width: 100%;
+            	
+         }
+
+         .chef .chef_div .chef_1
+         {
+            	width: 70%;
+            	
+            	
+          }
+
+          .chef .chef_div .chef_2
+          {
+            	width: 70%;
+            	
+          }
+
+          .chef .chef_div .chef_3
+          {
+            	width: 70%;
+          }
+
+         .chef .chef_div .chef_4
+         {
+            	width: 70%;
+         }
+
+
+          .customer_div
+          {
+             	height: auto;
+             	position: relative;
+          }
+
+          .customer_div span
+          {
+             	position: absolute;
+             	top: 80px;
+             	left: 200px;
+
+          }
+             .customer_div h1
+             {
+             	padding-top: 150px;
+             	font-size: 42px;
+             	padding-left:170px;
+             }
+
+             .customer_div .customers
+             {
+             	height: auto;
+             	width: 60%;
+             	margin: 25px auto 0 auto;
+
+             }
+
+             .customer_div .customers .customer_1
+             {
+             	width: 100%;
+             	
+             }
+
+             .customer_div .customers .customer_2
+             {
+               display: none;
+             }
+
+             .customer_div .customers .customer_3
+             {
+                display: none;
+             }
+
+             .footer
+             {
+     	       height: auto;
+     	        width: 100%;
+             }
+
+            .footer .footer_part
+            {
+     	       height: auto;
+     	       width: 75%;
+
+            }
+
+           .footer .footer_part .part_1, .part_2, .part_3, .part_4
+           {
+     	      width: 100%;
+     	      height: auto;
+            }
+
+          .footer .Copyright 
+          {
+     	  	margin-left: 100px;
+     	
+           }
+}
+
+@media (max-width: 760px)
+{
+
+	           .blog
+	           {
+             	     height: auto;
+                }
+
+             .blog .blog_div
+             {
+             	height: auto;
+             	width: 80%;
+
+             }
+
+             .blog .blog_div .recent_post_1, .recent_post_2, .recent_post_3
+             {
+             	width: 100%;
+             }
+
+             .blog .blog_div  i
+              {
+             margin-left: 330px;
+              }
+ }
+@media (max-width: 711px){
+
+
+	      .services span
+	      {
+    	        display: block;
+    	        width: 100%;
+    	        position: absolute;
+    	         top: 0;
+    	        left: 225px;
+    	
+          }
+
+          .services h1
+          {
+    	      font-size: 45px;
+    	     padding-left: 175px;
+
+          }
+
+
+        .services .services_div .Birthday
+        {
+    	     height: auto;
+    	     width: 100%;
+        }
+
+        .services .services_div .Business
+        {
+    	   height: auto;
+    	    width: 100%;
+        }
+
+        .services .services_div .Wedding
+        {
+     	   height: auto;
+     	    width: 100%;
+     	
+        }
+
+
+}
+
+@media (max-width: 712px){
+
+	       .menu
+	       {
+     	      position: relative;
+     	      height: auto;
+           }
+
+           .menu span
+            {
+     	        position: absolute;
+     	         top: 50px;
+     	        left: 130px;
+     	        font-size: 75px;
+            }
+
+           .menu h1
+           {
+     	      font-size: 45px;
+     	       padding-top: 100px;
+     	       padding-left: 150px;
+            }
+
+          .menu .menu_images
+          {
+     	      width: 100%;
+     	      height: auto;
+     	      margin-left: 0;
+     	      display: flex;
+     	      flex-wrap: wrap;
+     	
+          }
+
+           .pic
+           {
+     	      height: auto;
+           }
+
+          .order
+          {
+     	     height: auto;
+          }
+
+           .menu .menu_images  .menu_div1 .menu1
+            {
+          	   width: 100%;
+            }
+
+           .menu .menu_images  .menu2
+           {
+     	     width: 100%;
+           }
+      
+           .menu .menu_images .menu_div2 .menu3
+           {
+
+     	     width: 100%;
+           }
+
+           .menu .menu_images .menu_div2 .menu4
+           {
+     	
+     	    width: 100%;
+           }
+
+          .menu .menu_images .menu_div3 .menu5
+          {
+      	     width: 100%;
+      	
+          }
+
+          .menu .menu_images .menu_div3 .menu6
+          {
+      	    width: 100%;
+          }
+     
+
+}
+
+@media (max-width: 646px){
+
+
+	          .imagefooter
+	          {
+		
+		           height: auto;
+		         	display: block;
+		            background: white;
+		       }
+
+	         .imagefooter .breakfast_1, .breakfast_2, .breakfast_3, .breakfast_4
+	         {
+        	     height: 200px;
+        	     width: 100%;
+        	     padding-left: 150px;
+        	  }
+
+        	  .imagefooter .breakfast_2
+        	  {
+        		
+        	     height: 200px;
+        	     width: 100%;
+        	     padding-left: 150px;
+              }
+
+        	  .imagefooter .breakfast_3
+        	  {
+        	     height: 200px;
+        	     width: 100%;
+        	     padding-left: 150px;
+              }
+
+              .imagefooter .breakfast_4
+              {
+        	     height: 200px;
+        	     width: 100%;
+        	     padding-left: 150px;
+              }
+
+        	  .imagefooter h3
+        	  {
+        		color: black;
+        	   }
+
+        	   .imagefooter p
+        	   {
+        		
+        		color:grey;
+
+        	   }
+
+        	   .about .about_image
+        	   {
+        		height: auto;
+        		width: 100%;
+        	   }
+
+        	   .about .about_image .image_1
+        	   {
+        		
+        		height: auto;
+        		width: 100%;
+        			
+        	  }
+
+        	  .about .about_image .image_1 .img1
+        	  {
+        		height:550px ;
+        		width: 50%;
+        	  }
+
+        	 .about .about_image .image_1 .img2
+        	 {
+        		height: 550px;
+        		width: 50%;
+        		padding: 0;
+        	}
+
+        	 .about .about_image .about_text{
+        	 	height: 550px;
+        	 	width: 100%;
+        	 	margin-left: 10px;
+
+        	 }
+        	 
+        	 .about .count .count_1
+        	 {
+              	
+   	            width: 100%;
+   	            padding-left: 0;
+   	            
+             }
+
+              .about .count .count_1 strong
+              {
+                	margin-left: 80px;
+              }
+
+              .about .count .count_1  span
+              {
+                	margin-left: 30px;
+              }
+                 
+              .about .count .count_2
+              {
+                	height: 150px;
+   	                width: 100%;
+   	               
+              }
+
+               .about .count .count_2 strong
+               {
+                	margin-left: 65px;
+                }
+
+                .about .count .count_2  span
+                {
+                	margin-left: 55px;
+                }
+
+                 .about .count .count_3
+                 {
+   	               height: 150px;
+   	               width: 100%;
+   	
+                 }
+
+                .about .count .count_3 strong
+                {
+                	margin-left: 65px;
+                }
+
+                .about .count .count_3  span
+                {
+                	margin-left: 65px;
+                }
+
+
+                 .about .count .count_4
+                 {
+                    	height: 150px;
+   	                    width: 100%;
+   	
+                  }
+
+                 .about .count .count_4 strong
+                 {
+                  	margin-left: 35px;
+                  }
+
+                .about .count .count_4  span
+                {
+                	margin-left: 35px;
+                }
+
+                .about .count .count_5
+                {
+                 	height: 150px;
+                 	width: 100%;
+   
+                 
+                 }
+
+                .about .count .count_5  span
+                {
+    	           margin-left:0;
+    	           display: block;
+
+                }
+
+    
+                .services span
+                {
+    	           position: absolute;
+    	           top: 0;
+    	           left: 170px;
+    	
+                }
+
+           .services h1
+           {
+	           padding-left: 140px;
+	           font-size: 40px;
+            }
+
+          .menu .menu_images
+          {
+     	     width: 100%;
+     	     height: auto;
+     	     margin-left: 0;
+     	     display: flex;
+     	     flex-wrap: wrap;
+     	
+          }
+     
+           .menu .menu_images  .menu_div1 .menu1
+           {
+     	      width: 100%;
+           }
+
+          .menu .menu_images  .menu2
+          {
+     	     width: 100%;
+          }
+
+           .menu .menu_images .menu_div2 .menu3{
+     	     width: 100%;
+             }
+
+           .menu .menu_images .menu_div2 .menu4{
+     	     width: 100%;
+            }
+      .menu .menu_images .menu_div3 .menu5{
+      	width: 100%;
+      }
+      .menu .menu_images .menu_div3 .menu6{
+      	width: 100%;
+      }
+}
+
+
+@media (max-width: 558px){
+	.services span{
+    	position: absolute;
+    	top: 0;
+    	left: 150px;
+    	/*font-size: 45px;*/
+    }
+
+.services h1{
+	padding-left: 100px;
+	font-size: 40px;
+}
+}
+
+
+@media (max-width: 500px)
+{
+
+	.main .header_up{
+	        	display: none;
+	        }
+			.nav .checkbtn{
+				display: block;
+				line-height: 60px;
+				text-transform: uppercase;
+			}
+			.nav{
+				height: 60px;
+				background: black;
+				border: none;
+
+			}
+			.nav .logo a{
+				float: left;
+				line-height: 55px;
+				margin-left: 10px;
+				font-size: 23px;
+				position: absolute;
+				top:0;
+				left: -100px;
+				/*display: inline-block;*/
+			}
+
+			.nav ul li{
+				display: none;
+			}
+	.main{
+		background-size: 100% 100%;
+	}
+	.main .text{
+		border: none;
+		height: 585px;
+		width:100%;
+
+	}
+	.text span{
+		      position: absolute;
+				top: 220px;
+				left: 120px;
+				font-size: 75px;
+	}
+	.text h1{
+		font-size: 30px;
+		padding-top: 300px;
+	}
+	.imagefooter{
+		/*height: 800px;*/
+		height: auto;
+		/*background: yellow;*/
+		/*margin-top: 100px;*/
+		display: block;
+		/*color: black;*/
+		background: white;
+		/*text-align: center;*/
+
+	}
+	.imagefooter .breakfast_1, .breakfast_2, .breakfast_3, .breakfast_4{
+        	height: 200px;
+        	width: 100%;
+        	padding-left: 60px;
+
+
+
+        	/*background: coral;*/
+        	}
+        	.imagefooter .breakfast_2{
+        		
+        	height: 200px;
+        	width: 100%;
+        	padding-left: 60px;
+
+        	}
+        	.imagefooter .breakfast_3{
+        	height: 200px;
+        	width: 100%;
+        	padding-left: 60px;
+        }
+        .imagefooter .breakfast_4{
+        	height: 200px;
+        	width: 100%;
+        	padding-left: 60px;
+        }
+
+
+        	/*.breakfast_3{
+        		margin-bottom: 50px;
+        	}*/
+        	.imagefooter h3{
+        		color: black;
+        	}
+        	.imagefooter p{
+        		/*margin-left: 70px;
+        		margin-top: 8px;*/
+        		color:grey;
+
+        	}
+        	.about .about_image{
+        		height: auto;
+        		width: 100%;
+        		/*margin-top: 100px;*/
+        		
+        	}
+        	.about .about_image .image_1{
+        		height: 550px;
+        		width: 100%;
+        		margin-left: 0;
+
+        		
+        		
+        	}
+        	.about .about_image .image_1 .img1{
+        		height:550px ;
+        		width: 50%;
+        		/*padding-left: 0;*/
+        		padding: 0;
+        	}
+        	.about .about_image .image_1 .img2{
+        		height: 550px;
+        		width: 50%;
+        		/*margin-top: 30px;*/
+        		padding: 0;
+        	}
+        	 .about .about_image .about_text{
+        	 	height: 550px;
+        	 	width: 100%;
+        	 	margin-left: 10px;
+
+        	 }
+        	 .about .count {
+        	 	/*text-align: center;*/
+        	 }
+        	 .about .count .count_1{
+              	height: 100px;
+   	            width: 100%;
+   	            padding-left: 0;
+   	            
+                }
+                .about .count .count_1 strong{
+                	margin-left: 80px;
+                }
+                .about .count .count_1  span{
+                	margin-left: 30px;
+                }
+                 
+                  .about .count .count_2{
+                	height: 100px;
+   	                width: 100%;
+   	               /*background: pink;*/
+                   }
+                    .about .count .count_2 strong{
+                	margin-left: 65px;
+                }
+                .about .count .count_2  span{
+                	margin-left: 55px;
+                }
+                   .about .count .count_3{
+   	height: 100px;
+   	width: 100%;
+   	/*background: pink;*/
+   }
+    .about .count .count_3 strong{
+                	margin-left: 65px;
+                }
+                .about .count .count_3  span{
+                	margin-left: 65px;
+                }
+   .about .count .count_4{
+   	height: 100px;
+   	width: 100%;
+   	/*background: pink;*/
+   }
+    .about .count .count_4 strong{
+                	margin-left: 35px;
+                }
+                .about .count .count_4  span{
+                	margin-left: 35px;
+                }
+   .about .count .count_5{
+   	height: 150px;
+   	width: 100%;
+   	/*background: pink;*/
+   }
+    .about .count .count_5  span{
+    	margin-left:0;
+    	display: block;
+    }
+    .services span{
+    	display: block;
+    	width: 100%;
+    	position: absolute;
+    	top: 0;
+    	left: 90px;
+    	/*text-align: center;*/
+    }
+    .services h1{
+    	font-size: 40px;
+    	/*text-align: center;*/
+    	padding-left: 50px;
+
+    }
+    .services .services_div{
+    	width: 100%;
+    	/*margin-left: 10px;*/
+    	margin-left:0;
+    }
+    .services .services_div .Birthday{
+    	height: auto;
+    	width: 100%;
+    	/*padding: 0;*/
+    	/*padding-top: 0;*/
+    	/*margin-right: 40px;*/
+    }
+    .services .services_div .Business{
+    	height: auto;
+    	width: 100%;
+    	/*margin-right: 40px;*/
+    	/*padding: 0;*/
+    	/*padding-top: 0;*/
+    }
+     .services .services_div .Wedding{
+     	height: auto;
+     	width: 100%;
+     	/*margin-right: 40px;*/
+     	/*padding: 0;*/
+     }
+     .menu{
+     	position: relative;
+     	height: auto;
+     }
+     .menu span{
+     	position: absolute;
+     	top: 50px;
+     	left: 130px;
+     	font-size: 75px;
+     }
+     .menu h1{
+     	font-size: 45px;
+     	padding-top: 100px;
+     	padding-left: 150px;
+     }
+     .menu .menu_images{
+     	width: 100%;
+     	height: auto;
+     	margin-left: 0;
+     	display: flex;
+     	flex-wrap: wrap;
+     	/*margin-left: 40px;*/
+     }
+     .pic{
+     	height: auto;
+     }
+     .order{
+     	height: auto;
+     }
+     .menu .menu_images  .menu_div1 .menu1{
+     	width: 100%;
+     }
+     .menu .menu_images  .menu2{
+     	width: 100%;
+     }
+      
+     .menu .menu_images .menu_div2 .menu3{
+
+     	width: 100%;
+     }
+     .menu .menu_images .menu_div2 .menu4{
+     	
+     	width: 100%;
+     }
+      .menu .menu_images .menu_div3 .menu5{
+      	width: 100%;
+      	
+      }
+      .menu .menu_images .menu_div3 .menu6{
+      	width: 100%;
+      }
+     
+            .chef{
+            	height: auto;
+            	padding-top: 200px;
+            	position: relative;
+            }
+            .chef span{
+            	position: absolute;
+            	top: 200px;
+            	left: 150px;
+            }
+            .chef h1{
+            	font-size: 45px;
+            	padding-left: 40px;
+            }
+            .chef .chef_div{
+            	width: 100%;
+            	margin-left: 0;
+            }
+            .chef .chef_div .chef_1{
+            	width: 100%;
+            }
+             .chef .chef_div .chef_2{
+            	width: 100%;
+            }
+             .chef .chef_div .chef_3{
+            	width: 100%;
+            }
+             .chef .chef_div .chef_4{
+            	width: 100%;
+            }
+
+
+             
+
+             .background_fix{width: 100%;height: auto;}
+             .reservetion_form{width: 80%;height: auto;/*margin-left: 70px;*/}
+             .reservetion_form h1{padding-left: 50px;font-size: 45px;}
+
+             .reservetion_form  table{
+             	/*margin-left: 70px;*/
+             }
+             table , tr,td{
+             	display: block;
+             	width: 100%;
+             }
+             .reservetion_form  table input{
+             	width: 100%;
+             }
+             .reservetion_form  table select{
+             	width: 100%;
+             }
+
+             .reservetion_form  button{
+             	margin-left: 70px;
+             	/*margin-top: 10px;*/
+             }
+
+
+             .customer_div{
+             	height: auto;
+             	position: relative;
+             }
+             .customer_div span{
+             	position: absolute;
+             	top: 100px;
+             	left: 50px;
+
+             }
+             .customer_div h1{
+             	font-size: 42px;
+             	padding-left:50px;
+             }
+
+             .customer_div .customers{
+             	height: auto;
+
+             	width: 80%;
+             	margin: 25px auto 0 auto;
+             	/*margin-top: 10px;*/
+             }
+             .customer_div .customers .customer_1{
+             	width: 100%;
+             	/*overflow: hidden;*/
+             }
+             .customer_div .customers .customer_2{
+               display: none;
+             }
+             .customer_div .customers .customer_3{
+                display: none;
+             }
+
+             .blog{
+             	height: auto;
+
+             }
+             .blog .blog_div{
+             	height: auto;
+             	width: 100%;
+             }
+             .blog .blog_div .recent_post_1, .recent_post_2, .recent_post_3{
+             	width: 100%;
+             }
+             .blog .blog_div  i{
+             margin-left: 200px;
+    }
+
+     .footer{
+     	height: auto;
+     	width: 100%;
+     }
+     .footer .footer_part{
+     	height: auto;
+     	width: 95%;
+
+     }
+     .footer .footer_part .part_1, .part_2, .part_3, .part_4{
+     	width: 100%;
+     	height: auto;
+     }
+     .footer .Copyright {
+     	  	margin-left: 30px;
+     	
+     }
+        	 
+}
